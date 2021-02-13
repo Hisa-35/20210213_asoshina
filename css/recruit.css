@@ -1,0 +1,230 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.header h2{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+.header li{
+    display: flex;
+    margin-right: 30px;
+}
+.header a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+}
+.title{
+    background-image: url(../img/mv.png);
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.Title{
+   text-align: center;
+   padding-top: 200px;
+}
+.Title h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.new-member{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+}
+.new-member h2{
+    padding-bottom: 10px;
+    font-size:25px;
+    border-bottom: 1px black solid;
+    width: 100%;
+}
+.new-member p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.new-member table,
+.new-member td,
+.new-member th{
+    border: solid black 1px;
+}
+.new-member table{
+    width: 100%;
+}
+.new-member td{
+   padding-left: 15px;
+}
+.new-member th{
+    background: rgb(233, 233, 233);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.career{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+}
+.career h2{
+    padding-bottom: 10px;
+    font-size:25px;
+    border-bottom: 1px black solid;
+    width: 100%;
+}
+.career p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.career table,
+.career td,
+.career th{
+    border: solid black 1px;
+}
+.career table{
+    width: 100%;
+}
+.career td{
+   padding-left: 15px;
+}
+.career th{
+    background: rgb(233, 233, 233);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.question{
+    width: 100%;
+    height: 330px;
+    background: rgb(238, 238, 238);
+    margin-top: 50px;
+}
+.question h3{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+.question p{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 25px;
+}
+.question-all a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.question-all{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(211, 21, 21);
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+   width: 100%;
+   height: 60px;
+   background: black;
+   display: flex;
+   justify-content: space-between;
+}
+.footer p{
+    color: white;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+}
+.footer li{
+    display: flex;
+    margin-right: 30px;
+}
+.footer-content{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px){
+    .hamburger{
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 99;
+        top: 15px;
+        right: 20px;
+        transition: 0.5s;
+    }
+    .hamburger span{
+        position: absolute;
+        left: 2px;
+        display: block;
+        width: 35px;
+        height: 4px;
+        background-color: black;
+        transition: 0.8s;
+    }
+    .hamburger span:nth-of-type(1){
+        top: 10px;
+    }
+    .hamburger span:nth-of-type(2){
+        top: 20px;
+    }
+    .hamburger span:nth-of-type(3){
+        top: 30px;
+    }
+    .header ul{
+        display: none;
+    }
+    .footer {
+        width: 100%;
+        height: 400px;
+        background: black;
+        display: flex;
+        justify-content: none;
+     }
+     .footer p{
+         color: white;
+         font-size: 17px;
+         display: flex;
+         align-items: center;
+         margin-left: 10%;
+     }
+     .footer ul{
+         display: block;
+         align-items: center;
+         margin-right: 20%;
+     }
+     .footer li{
+         display: block;
+         margin-top: 30%;
+         text-align: center;
+     }
+     .footer-content{
+         color: white;
+         text-decoration: none;
+         font-size: 14px;
+     }
+}

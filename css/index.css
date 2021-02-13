@@ -1,0 +1,496 @@
+
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.header h2{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+.header li{
+    display: flex;
+    margin-right: 30px;
+}
+.header a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+}
+.title{
+    background-image: url(../img/mv.png);
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+}
+.Title{
+   text-align: center;
+   padding-top: 300px;
+}
+.Title h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.Title p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.hope{
+    height: 300px;
+    width: 100%;
+    background: rgb(32, 32, 32);
+    color: white;
+    display: block;
+}
+.hope h2{
+    height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 80px;
+    margin-left: 10%;
+}
+.hope p{
+    width: 80%;
+    height: 50px;
+    line-height: 25px;
+    padding-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.service{
+    margin-top: 100px;
+}
+.service-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.T-C{
+    display: flex;
+    justify-content: space-between;
+}
+.training{
+    width: 550px;
+    margin-left: 150px;
+}
+.training img{
+    width: 550px;
+    height: 330px;
+}
+.training h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.training p{
+    width: 100%;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.coaching{
+    width: 550px;
+    margin-right: 150px;
+}
+.coaching img{
+    width: 550px;
+    height: 330px;
+}
+.coaching h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.coaching p{
+    width: 100%;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.C-D{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.consulting{
+    width: 550px;
+    margin-left: 150px;
+}
+.consulting img{
+    width: 550px;
+    height: 330px;
+}
+.consulting h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.consulting p{
+    width: 100%;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.DX{
+    width: 550px;
+    margin-right: 150px;
+}
+.DX img{
+    width: 550px;
+    height: 330px;
+}
+.DX h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.DX p{
+    width: 100%;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.service-all{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(211, 21, 21);
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-all a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.news{
+    margin-top: 80px;
+    height: 360px;
+    width: 100%;
+    background: rgb(31, 29, 29);
+    padding-top: 80px;
+}
+.news-top{
+    display: flex;
+    margin-left: 10%;
+}
+.news-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.news-all{
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(211, 21, 21);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 68%;
+}
+.news-content a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    background: white;
+    padding: 25px;
+    margin-left: 10%;
+}
+.news-content li{
+    margin-top: 20px;
+    width: 1300px;
+}
+.news-detail{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.blog{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.blog-Title{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.blog-content img{
+    width: 350px;
+}
+.blog-content a{
+    text-decoration: none;
+    color: black;
+}
+.blog-date{
+    margin-top: 10px;
+}
+.blog-detail{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.blog-all{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(211, 21, 21);
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-all a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.infomation{
+    display: flex;
+    margin-top: 100px;
+}
+.infomation a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    width: 50%;
+}
+.infomation-company{
+    background: rgb(197, 3, 3);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.infomation-recruit{
+    background:  rgb(31, 29, 29);
+    text-align: center;
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+.question{
+    width: 100%;
+    height: 330px;
+    background: rgb(238, 238, 238);
+    margin-top: 50px;
+}
+.question h3{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+.question p{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 25px;
+}
+.question-all a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.question-all{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(211, 21, 21);
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+   width: 100%;
+   height: 60px;
+   background: black;
+   display: flex;
+   justify-content: space-between;
+}
+.footer p{
+    color: white;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+}
+.footer li{
+    display: flex;
+    margin-right: 30px;
+}
+.footer-content{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px){
+    .hamburger{
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 99;
+        top: 15px;
+        right: 20px;
+        transition: 0.5s;
+    }
+    .hamburger span{
+        position: absolute;
+        left: 2px;
+        display: block;
+        width: 35px;
+        height: 4px;
+        background-color: black;
+        transition: 0.8s;
+    }
+    .hamburger span:nth-of-type(1){
+        top: 10px;
+    }
+    .hamburger span:nth-of-type(2){
+        top: 20px;
+    }
+    .hamburger span:nth-of-type(3){
+        top: 30px;
+    }
+    .header ul{
+        display: none;
+    }
+    .hope{
+        height: 400px;
+    }
+    .hope h2{
+        margin-left: 10%;
+        padding-left: 0px;
+    }
+    .C-D,
+    .T-C{
+        display: block;
+    }
+    .training,
+    .consulting{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .coaching,
+    .DX{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .coaching{
+        margin-top: 30px;
+    }
+    .DX{
+        margin-top: 30px;
+    }
+    
+    .news-top{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .news-title{
+        font-size: 30px;
+        width: 50%;
+        font-weight: bold;
+        color: white;
+    }
+    .news-all{
+        font-size: 15px;
+        font-weight: bold;
+        background: rgb(211, 21, 21);
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        margin-left: 0;
+    }
+    .news-content a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        background: white;
+        padding: 25px;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .news-content li{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .blog{
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .blog-Title{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .blog-content{
+        display: block;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .blog-content img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .article{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .footer {
+        width: 100%;
+        height: 400px;
+        background: black;
+        display: flex;
+        justify-content: none;
+     }
+     .footer p{
+         color: white;
+         font-size: 17px;
+         display: flex;
+         align-items: center;
+         margin-left: 10%;
+     }
+     .footer ul{
+         display: block;
+         align-items: center;
+         margin-right: 20%;
+     }
+     .footer li{
+         display: block;
+         margin-top: 30%;
+         text-align: center;
+     }
+     .footer-content{
+         color: white;
+         text-decoration: none;
+         font-size: 14px;
+     }
+}
