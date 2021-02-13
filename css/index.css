@@ -86,11 +86,12 @@
     justify-content: space-between;
 }
 .training{
-    width: 550px;
-    margin-left: 150px;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 2%;
 }
 .training img{
-    width: 550px;
+    width: 100%;
     height: 330px;
 }
 .training h3{
@@ -103,11 +104,12 @@
     padding-top: 10px;
 }
 .coaching{
-    width: 550px;
-    margin-right: 150px;
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 2%;
 }
 .coaching img{
-    width: 550px;
+    width: 100%;
     height: 330px;
 }
 .coaching h3{
@@ -126,11 +128,12 @@
     padding-top: 30px;
 }
 .consulting{
-    width: 550px;
-    margin-left: 150px;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 2%;
 }
 .consulting img{
-    width: 550px;
+    width: 100%;
     height: 330px;
 }
 .consulting h3{
@@ -143,11 +146,12 @@
     padding-top: 10px;
 }
 .DX{
-    width: 550px;
-    margin-right: 150px;
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 2%;
 }
 .DX img{
-    width: 550px;
+    width: 100%;
     height: 330px;
 }
 .DX h3{
@@ -208,10 +212,11 @@
     background: white;
     padding: 25px;
     margin-left: 10%;
+    margin-right: 10%;
 }
 .news-content li{
     margin-top: 20px;
-    width: 1300px;
+    width: 100%;
 }
 .news-detail{
     font-weight: bold;
@@ -229,11 +234,10 @@
 }
 .blog-content{
     display: flex;
-    justify-content: space-between;
     margin-top: 30px;
 }
 .blog-content img{
-    width: 350px;
+    width: 100%;
 }
 .blog-content a{
     text-decoration: none;
@@ -263,6 +267,10 @@
     font-weight: bold;
     text-decoration: none;
     color: white;
+}
+.article{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .infomation{
     display: flex;
