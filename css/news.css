@@ -59,12 +59,13 @@
     background: white;
     padding: 25px;
     width: 70%;
-    margin-left: 17%;
+    margin-left: 13%;
+    margin-right: 17%;
     border: black 1px solid;
 }
 .news-content li{
     margin-top: 20px;
-    width: 1300px;
+    width: 100%;
 }
 .news-detail{
     font-weight: bold;
