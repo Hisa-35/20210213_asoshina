@@ -135,7 +135,11 @@
  .footer li{
      display: flex;
      margin-right: 30px;
- }
+     padding-left: 30px;
+}
+li + li{
+    border-left: solid 1px white;
+}
  .footer-content{
      color: white;
      text-decoration: none;
@@ -233,6 +237,8 @@
          display: block;
          margin-top: 30%;
          text-align: center;
+         border: none;
+         padding-left: 0;
      }
      .footer-content{
          color: white;

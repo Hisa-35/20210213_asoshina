@@ -82,6 +82,37 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.footer {
+    width: 100%;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer p{
+     color: white;
+     font-size: 17px;
+     display: flex;
+     align-items: center;
+     margin-left: 100px;
+ }
+ .footer ul{
+     display: flex;
+     align-items: center;
+ }
+ .footer li{
+     display: flex;
+     margin-right: 30px;
+     padding-left: 30px;
+}
+li + li{
+    border-left: solid 1px white;
+}
+ .footer-content{
+     color: white;
+     text-decoration: none;
+     font-size: 14px;
+ }
 @media screen and (max-width: 768px){
     .hamburger{
         width: 40px;
@@ -164,6 +195,8 @@
      display: block;
      margin-top: 30%;
      text-align: center;
+     border: none;
+     padding-left: 0;
  }
  .footer-content{
      color: white;

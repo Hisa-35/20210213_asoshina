@@ -349,6 +349,10 @@
 .footer li{
     display: flex;
     margin-right: 30px;
+    padding-left: 30px;
+}
+li + li{
+    border-left: solid 1px white;
 }
 .footer-content{
     color: white;
@@ -397,6 +401,12 @@
     .C-D,
     .T-C{
         display: block;
+    }
+    .training,
+    .consulting,
+    .coaching,
+    .DX{
+        width: 80%;
     }
     .training,
     .consulting{
@@ -495,6 +505,7 @@
          display: block;
          margin-top: 30%;
          text-align: center;
+         border: none;
      }
      .footer-content{
          color: white;
